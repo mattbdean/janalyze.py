@@ -1,0 +1,3 @@
+*.swp
+java-test-project/build/
+java-test-project/.gradle/

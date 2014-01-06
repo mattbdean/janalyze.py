@@ -1,0 +1,18 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+sourceCompatibility = '1.7'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'SimpleClass'
+	}
+}

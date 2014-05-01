@@ -7,10 +7,10 @@ Ever wonder about the statistics of your project? How much of it is comments, do
 
 ```
 # Analyze a file
-./janalyze.py MyClass.java
+janalyze.py MyClass.java
 
 # Analyze a whole folder
-./janalyze.py src/
+janalyze.py src/
 ```
 
 ####Flags
